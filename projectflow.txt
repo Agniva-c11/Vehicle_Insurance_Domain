@@ -1,4 +1,19 @@
 1. Create project template by executing template.py file
 2. Write the code for "setup.py" and "pyproject.toml" to import the local packages
 3. Add required modules to "requirements.txt" and do "pip install -r requirements.txt"
-4. 
+
+4. Sign up to MONGODB Atlas and create a new project by providing a name 
+5. From "create a cluster" , hit "create" , Select M0 services keeping other services as default, hit "create deployment"
+6. Setup username and password and create DB user
+7. Go to "network access" and add ip address "0.0.0.0/0" so that we can access it from anywhere
+8. Go back to project >> "Get Connection String" >> Drivers >> {Driver:Python, Version:3.6 or later}
+    >> copy and save the connection string with you(replace password) >> Done 
+9. Create folder "notebook" >> create file "mongoDB_demo.ipynb" >> select kernel>python kernel
+10. Kaggle data link : https://www.kaggle.com/datasets/moro23/easyvisa-dataset
+11. Push your data to mongoDB database from python notebook
+12. Go to MONGODB Atlas >> Database >> browse collection >> see your data in key vale format
+
+username : agnivac11
+password : IDUiO20E2GEXVCGA
+
+mongodb+srv://agnivac11:<db_password>@cluster2.boqgm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2

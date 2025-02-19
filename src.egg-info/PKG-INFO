@@ -1,0 +1,7 @@
+Metadata-Version: 2.2
+Name: src
+Version: 0.0.1
+Summary: An MLOPS project for productionising models
+Author: Agniva Chakravarty
+Author-email: Agniva Chakravarty <agnivac11@gmail.com>
+Dynamic: author
