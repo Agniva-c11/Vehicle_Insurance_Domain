@@ -9,11 +9,15 @@
 8. Go back to project >> "Get Connection String" >> Drivers >> {Driver:Python, Version:3.6 or later}
     >> copy and save the connection string with you(replace password) >> Done 
 9. Create folder "notebook" >> create file "mongoDB_demo.ipynb" >> select kernel>python kernel
-10. Kaggle data link : https://www.kaggle.com/datasets/moro23/easyvisa-dataset
-11. Push your data to mongoDB database from python notebook
+10. Add data in notebook
+11. Push your data to mongoDB database from python notebook "mongoDB_demo.ipynb"
 12. Go to MONGODB Atlas >> Database >> browse collection >> see your data in key vale format
 
 username : agnivac11
 password : IDUiO20E2GEXVCGA
 
-mongodb+srv://agnivac11:<db_password>@cluster2.boqgm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2
+URL = mongodb+srv://agnivac11:IDUiO20E2GEXVCGA@cluster2.boqgm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2
+
+13. Write the logger file and test it on demo.py
+14. Write the exception file and test it on demo.py
+15. EDA and Feature Engg notebook added.
